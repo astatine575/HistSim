@@ -7,10 +7,9 @@ protected:
   static int work();
 };
 
-/**
- *   Secondary Manager Thread Worker
- *
- **/
+/*
+Secondary Manager Thread Worker
+*/
 class TaskScheduler : public Worker {
 public:
   TaskScheduler();
@@ -19,10 +18,9 @@ private:
   static int work();
 };
 
-/**
- *   CPU Thread Worker
- *
- **/
+/*
+CPU Thread Worker
+*/
 class ComplexWorker : public Worker {
 public:
   ComplexWorker();
@@ -31,10 +29,9 @@ private:
   int work();
 };
 
-/**
- *   GPU Thread Worker
- *
- **/
+/*
+GPU Thread Worker
+*/
 class SimpleWorker : public Worker {
 public:
   SimpleWorker();
