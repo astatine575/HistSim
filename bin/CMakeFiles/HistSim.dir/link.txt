@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/HistSim.dir/Core.cxx.o CMakeFiles/HistSim.dir/Workers.cxx.o -o HistSim  -lpthread -ldl /home/aischri/Aischri-Workspace/HistSim/src/lib/libsqlite3.a /home/aischri/Aischri-Workspace/HistSim/src/lib/libspatialite.a 

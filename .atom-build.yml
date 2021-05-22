@@ -1,0 +1,2 @@
+cmd: echo $'Clearing Previous Executable'; rm ./bin/HistSim; echo $'\nConfiguring Build\n'; cmake -S ./src -B ./bin; echo $'\nMaking\n'; cmake --build ./bin; ./bin/HistSim;
+name: 'Debug Build and Run'
